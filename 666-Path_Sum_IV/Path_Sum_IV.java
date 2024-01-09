@@ -1,6 +1,6 @@
 class Solution {
     public int pathSum(int[] nums) {
-        // Get the depth, create an array based on depth -> 2^(d-1)
+        // Get the depth, create an array based on depth -> 2^depth
         int depth = (nums[nums.length - 1] / 100);
         int[] bst = new int[(int)Math.pow(2, depth)];
         Arrays.fill(bst, -1);
