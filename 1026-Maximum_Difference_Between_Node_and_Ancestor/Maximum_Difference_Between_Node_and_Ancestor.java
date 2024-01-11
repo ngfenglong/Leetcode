@@ -1,17 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
 class Solution {
     int ans = 0;
     public int maxAncestorDiff(TreeNode root) {
