@@ -1,5 +1,4 @@
 class Solution {
-    
     public int findTheWinner(int n, int k) {
         // Add all into a circular linkedlist
         ListNode head = new ListNode(1);
