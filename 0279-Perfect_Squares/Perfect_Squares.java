@@ -1,5 +1,4 @@
 class Solution {
-    List<Integer> list = new ArrayList<>();
     public int numSquares(int n) {
         int[] arr = new int[n + 1];
         
