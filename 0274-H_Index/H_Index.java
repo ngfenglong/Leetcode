@@ -1,13 +1,14 @@
 class Solution {
     public int hIndex(int[] citations) {
-        int[] check = new int[1001];
+        int n = citations.length;
+        int[] check = new int[n+1];
         
-        for(int i : citations){
-            check[i]++;
+        for(int i: citations){
+            check[Math.min(n, i)]++;
         }
         
         int cumm = 0;
-        for(int i = 1000; i >= 0; i--){
+        for(int i = n; i >= 0; i--){
             cumm += check[i];
             if(cumm >= i) return i;
         }
