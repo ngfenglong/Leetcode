@@ -11,9 +11,10 @@ class Solution {
             return new int[distance + 1];
         }
         
+        // leaf node
         if(root.left == null && root.right == null){
             int[] arr = new int[distance + 1];
-            arr[1] = 1;
+            arr[1] = 1; // one leaf node
             return arr;
         }
         
@@ -21,7 +22,8 @@ class Solution {
         int[] rightNodes = calculatePairs(root.right, distance);
         int[] leftNodes = calculatePairs(root.left, distance);
         
-        for(int left = 1; left < leftNodes.length; left++){
+        // Find count by pairing up left and right leaves (Multiple left and right)
+        for(int left = 1; left <= distance; left++){
             for(int right = distance - left; right >= 1; right--){
                 count += (rightNodes[right] * leftNodes[left]);
             }
