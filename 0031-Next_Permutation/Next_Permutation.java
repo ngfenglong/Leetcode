@@ -1,7 +1,6 @@
 class Solution {
     public void nextPermutation(int[] nums) {
         // check if it is the biggest
-        boolean biggest = true;
         for(int i = nums.length - 1; i > 0; i--){
             if(nums[i]  > nums[i - 1]){
                 swapNextBiggerDigit(nums, i - 1);

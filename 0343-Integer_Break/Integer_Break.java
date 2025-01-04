@@ -1,3 +1,5 @@
+import java.util.*;
+
 class Solution {
     HashMap<Integer,Integer> maxProduct = new HashMap<>();
     

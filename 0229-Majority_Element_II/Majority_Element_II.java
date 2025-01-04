@@ -1,4 +1,5 @@
-```
+import java.util.*;
+
 class Solution {
     public List<Integer> majorityElement(int[] nums) {
         // Boyer-Moore Majority Vote Algo
@@ -47,4 +48,3 @@ class Solution {
         return ans;
     }
 }
-```

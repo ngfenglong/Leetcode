@@ -1,3 +1,4 @@
+import java.util.*;
 class Solution {
     List<Integer> list = new ArrayList<>();
     public List<Integer> preorderTraversal(TreeNode root) {
@@ -13,7 +14,7 @@ class Solution {
         traverse(root.right);
     }
     
-    public class TreeNode {
+    class TreeNode {
         int val;
         TreeNode left;
         TreeNode right;

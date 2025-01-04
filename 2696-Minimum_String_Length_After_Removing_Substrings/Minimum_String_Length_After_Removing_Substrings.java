@@ -1,3 +1,5 @@
+
+import java.util.*;
 class Solution {
     public int minLength(String s) {
         HashMap<Character, Character> pair = new HashMap<>();

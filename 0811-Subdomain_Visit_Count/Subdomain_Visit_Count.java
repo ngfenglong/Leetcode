@@ -1,3 +1,5 @@
+import java.util.*;
+
 class Solution {
     public List<String> subdomainVisits(String[] cpdomains) {
         HashMap<String, Integer> hm = new HashMap<>();

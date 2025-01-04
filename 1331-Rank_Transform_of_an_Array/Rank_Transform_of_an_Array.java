@@ -1,3 +1,5 @@
+import java.util.*;
+
 class Solution {
     public int[] arrayRankTransform(int[] arr) {
         HashMap<Integer,Integer> sequenceHM = new HashMap<>();

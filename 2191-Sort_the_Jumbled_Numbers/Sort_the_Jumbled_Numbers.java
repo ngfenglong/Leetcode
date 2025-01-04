@@ -1,3 +1,5 @@
+import java.util.*;
+
 class Solution {
     public int[] sortJumbled(int[] mapping, int[] nums) {
         HashMap<Integer, Integer> hm = new HashMap<>();

@@ -37,5 +37,3 @@ class Solution {
         return newArr;
     }
 }
-
-x

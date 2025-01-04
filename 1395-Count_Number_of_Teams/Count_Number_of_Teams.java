@@ -1,3 +1,5 @@
+import java.util.*;
+
 class Solution {
     public int numTeams(int[] rating) {
         HashMap<Integer, List<Integer>> increasingHM = new HashMap<>();

@@ -1,11 +1,19 @@
-/**
- * // This is MountainArray's API interface.
- * // You should not implement it, or speculate about its implementation
- * interface MountainArray {
- *     public int get(int index) {}
- *     public int length() {}
- * }
- */
+import java.util.*;
+
+
+ // This is MountainArray's API interface.
+ // You should not implement it, or speculate about its implementation
+class MountainArray {
+    public int get(int index) {
+        // default implementation by LeetCode
+        return 0;
+    }
+    public int length() {
+        // default implementation by LeetCode
+        return 0;
+    }
+}
+
  
 class Solution {
     HashMap<Integer, Integer> cache = new HashMap<>();

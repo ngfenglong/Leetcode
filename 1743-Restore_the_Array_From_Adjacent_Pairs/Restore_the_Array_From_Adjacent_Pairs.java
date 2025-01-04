@@ -1,3 +1,5 @@
+import java.util.*;
+
 class Solution {
     public int[] restoreArray(int[][] adjacentPairs) {
         HashMap<Integer, Node> hm = new HashMap<Integer, Node>();

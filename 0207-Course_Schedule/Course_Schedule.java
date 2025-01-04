@@ -1,3 +1,5 @@
+import java.util.*;
+
 class Solution {
     HashMap<Integer, List<Integer>> vertices = new HashMap<>();
     public boolean canFinish(int numCourses, int[][] prerequisites) {

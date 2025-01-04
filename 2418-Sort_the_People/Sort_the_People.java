@@ -1,4 +1,6 @@
+import java.util.*;
 class Solution {
+    
     public String[] sortPeople(String[] names, int[] heights) {
         Map<Integer, String> hm = new HashMap<>();
         int n = heights.length;

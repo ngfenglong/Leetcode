@@ -1,3 +1,5 @@
+import java.util.*;
+
 class Solution {
     HashMap<Integer, List<Integer>> hm = new HashMap<>();
     public boolean validTree(int n, int[][] edges) {

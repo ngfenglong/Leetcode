@@ -1,3 +1,5 @@
+import java.util.*;
+
 class Solution {
     public List<List<Integer>> findMatrix(int[] nums) {
         int[] freq = new int[nums.length + 1];

@@ -1,3 +1,5 @@
+import java.util.*;
+
 class Solution {
     HashMap<String, List<Integer>> memo = new HashMap<>();
     public List<Integer> diffWaysToCompute(String expression) {

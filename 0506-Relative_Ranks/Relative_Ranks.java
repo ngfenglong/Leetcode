@@ -1,3 +1,4 @@
+import java.util.*;
 class Solution {
     public String[] findRelativeRanks(int[] score) {
         HashMap<Integer, Integer> hm = new HashMap<>();

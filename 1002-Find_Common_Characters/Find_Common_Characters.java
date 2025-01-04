@@ -1,3 +1,5 @@
+import java.util.*;
+
 class Solution {
     public List<String> commonChars(String[] words) {
         int[] freq = new int[26];

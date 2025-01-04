@@ -1,3 +1,5 @@
+import java.util.*;
+
 class Solution {
     public int numSpecial(int[][] mat) {
         List<Integer> specialCol = new ArrayList<>();

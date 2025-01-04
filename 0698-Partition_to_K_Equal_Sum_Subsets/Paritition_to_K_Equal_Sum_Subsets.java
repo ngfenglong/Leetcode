@@ -1,3 +1,5 @@
+import java.util.*;
+
 class Solution {
     public boolean canPartitionKSubsets(int[] nums, int k) {
         int total = 0;

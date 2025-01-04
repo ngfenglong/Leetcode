@@ -1,3 +1,5 @@
+import java.util.*;
+
 class Solution {
     public List<Integer> goodIndices(int[] nums, int k) {
         int n = nums.length;

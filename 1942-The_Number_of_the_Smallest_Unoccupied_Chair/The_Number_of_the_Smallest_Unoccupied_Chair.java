@@ -1,3 +1,5 @@
+import java.util.*;
+
 class Solution {
     public int smallestChair(int[][] times, int targetFriend) {
         int[][] starts = new int[times.length][2];

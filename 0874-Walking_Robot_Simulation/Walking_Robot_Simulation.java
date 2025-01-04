@@ -1,3 +1,5 @@
+import java.util.*;
+
 class Solution {    
     public int robotSim(int[] commands, int[][] obstacles) {
         // 0 - north, 1 - east, 2 - south, 3 - west

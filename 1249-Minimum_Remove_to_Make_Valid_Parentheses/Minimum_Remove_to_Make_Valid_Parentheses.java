@@ -1,3 +1,5 @@
+import java.util.*;
+
 class Solution {
     public String minRemoveToMakeValid(String s) {
         Set<Integer> toSkip = new HashSet<>();

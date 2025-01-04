@@ -1,3 +1,6 @@
+import java.util.*;
+
+
 class Solution {
     public boolean uniqueOccurrences(int[] arr) {
         HashMap<Integer, Integer> hm = new HashMap<>();

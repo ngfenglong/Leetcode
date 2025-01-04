@@ -1,3 +1,5 @@
+import java.util.*;
+
 class Solution {
     Set<String> dictSet = new HashSet<>();
     int minCharacters = Integer.MAX_VALUE;

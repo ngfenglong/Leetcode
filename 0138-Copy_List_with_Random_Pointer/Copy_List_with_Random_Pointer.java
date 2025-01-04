@@ -1,5 +1,4 @@
-/*
-// Definition for a Node.
+import java.util.*;
 class Node {
     int val;
     Node next;
@@ -11,7 +10,6 @@ class Node {
         this.random = null;
     }
 }
-*/
 
 class Solution {
     public Node copyRandomList(Node head) {

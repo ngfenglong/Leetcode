@@ -1,4 +1,5 @@
 
+import java.util.*;
 class Solution {
     List<Integer> list = new ArrayList<Integer>();
     
@@ -16,7 +17,7 @@ class Solution {
         list.add(root.val);
     }
     
-    public class TreeNode {
+    class TreeNode {
         int val;
         TreeNode left;
         TreeNode right;

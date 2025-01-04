@@ -1,8 +1,14 @@
-public interface Reader4 {
-    public int read4(char[] buf4);
+
+import java.util.*;
+
+abstract class Reader4 {
+    public int read4(char[] buf4) {
+        // Default implementation from Leetcode
+        return 0;
+    };
 }
 
-public class Solution extends Reader4 {
+class Solution extends Reader4 {
     /**
      * @param buf Destination buffer
      * @param n   Number of characters to read

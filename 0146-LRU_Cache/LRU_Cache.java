@@ -1,3 +1,4 @@
+import java.util.*;
 class LRUCache {
     HashMap<Integer, Node> hm = new HashMap<Integer, Node>();
     Node head = null;

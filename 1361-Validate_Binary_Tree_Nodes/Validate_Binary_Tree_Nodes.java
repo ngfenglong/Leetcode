@@ -1,3 +1,5 @@
+import java.util.*;
+
 class Solution {
     HashMap<Integer, Node> hm = new HashMap<>();
     public boolean validateBinaryTreeNodes(int n, int[] leftChild, int[] rightChild) {

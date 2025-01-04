@@ -1,3 +1,5 @@
+import java.util.*;
+
 class Solution {
     public int heightChecker(int[] heights) {
         int[] expected = new int[heights.length];

@@ -1,3 +1,5 @@
+import java.util.*;
+
 class Solution {
     public int minIncrementForUnique(int[] nums) {
         Arrays.sort(nums);

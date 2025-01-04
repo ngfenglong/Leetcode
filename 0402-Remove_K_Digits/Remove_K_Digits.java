@@ -1,3 +1,5 @@
+import java.util.*;
+
 class Solution {
   public String removeKdigits(String num, int k) {
    // check for special case --> second number has 0

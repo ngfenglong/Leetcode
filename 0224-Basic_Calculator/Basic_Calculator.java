@@ -1,3 +1,5 @@
+import java.util.*;
+
 class Solution {
     public int calculate(String s) {
         s = s.replace(" ", "");
@@ -17,7 +19,7 @@ class Solution {
                 operators.push(charArr[i]);
             } 
             // Check character after ( and when - appear, 
-            else if (isDigit(charArr[i])) {å
+            else if (isDigit(charArr[i])) {
                 int num = charArr[i] - '0';
                 while(i < charArr.length - 1 && isDigit(charArr[i + 1])){
                     num *= 10;

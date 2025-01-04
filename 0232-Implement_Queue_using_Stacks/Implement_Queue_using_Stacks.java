@@ -1,3 +1,5 @@
+import java.util.*;
+
 class MyQueue {
     Stack<Integer> stack = new Stack<>();
     

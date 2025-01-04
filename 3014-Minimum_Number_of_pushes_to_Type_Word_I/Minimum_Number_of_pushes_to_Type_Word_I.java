@@ -1,3 +1,6 @@
+import java.util.*;
+
+
 class Solution {
     public int minimumPushes(String word) {
         Integer[] letters = new Integer[26];

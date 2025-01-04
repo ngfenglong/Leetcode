@@ -1,3 +1,6 @@
+import java.util.*;
+
+
 class Solution {
     public int minOperations(int[] nums) {
         HashMap<Integer, Integer> occurHM = new HashMap<Integer, Integer>();

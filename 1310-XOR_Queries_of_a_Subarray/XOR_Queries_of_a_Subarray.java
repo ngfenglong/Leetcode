@@ -1,3 +1,5 @@
+import java.util.*;
+
 class Solution {
     public int[] xorQueries(int[] arr, int[][] queries) {
         HashMap<Integer, Integer> hm = new HashMap<>();

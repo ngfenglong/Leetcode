@@ -1,3 +1,5 @@
+import java.util.*;
+
 class Solution {
     public int[] kthSmallestPrimeFraction(int[] arr, int k) {
         PriorityQueue<double[]> pq = new PriorityQueue<double[]>((d1,d2)->  Double.compare(d2[2], d1[2]));

@@ -1,3 +1,5 @@
+import java.util.*;
+
 class Solution {
     public int minMeetingRooms(int[][] intervals) {
         int[] startTime  = new int[intervals.length];

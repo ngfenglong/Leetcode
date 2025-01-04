@@ -1,3 +1,5 @@
+import java.util.*;
+
 class Solution {
     public int[] shortestDistanceAfterQueries(int n, int[][] queries) {
         int[] ans = new int[queries.length];

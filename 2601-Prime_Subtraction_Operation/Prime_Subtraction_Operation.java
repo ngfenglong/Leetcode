@@ -1,3 +1,6 @@
+import java.util.*;
+
+
 class Solution {
     public boolean primeSubOperation(int[] nums) {                
         int maxNum = getMaxNum(nums);        

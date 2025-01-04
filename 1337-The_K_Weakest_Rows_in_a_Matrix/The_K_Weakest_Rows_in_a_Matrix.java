@@ -1,10 +1,12 @@
+import java.util.*;
+
 class Solution {
     public int[] kWeakestRows(int[][] mat, int k) {
         HashMap<Integer, List<Integer>> hm = new HashMap<>();
         
         for(int i = 0 ; i < mat.length; i++){
             int count = 0;
-            for(int j = 0; j < mat[0].length; j++)
+            for(int j = 0; j < mat[0].length; j++){
                 if(mat[i][j] != 1) break;
                 count++;
             }

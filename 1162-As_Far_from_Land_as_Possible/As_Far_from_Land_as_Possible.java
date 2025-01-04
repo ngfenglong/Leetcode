@@ -1,6 +1,25 @@
+import java.util.*;
+
+class Pair<K,V> {
+    public final K key;
+    public final V value;
+
+    public Pair(K key, V value){
+        this.key = key;
+        this.value = value;
+    }
+
+    public K getKey(){
+        return key;
+    }
+
+    public V getValue(){
+        return value;
+    }
+}
+
 class Solution {
-    public int maxDistance(int[][] grid) {
-        
+    public int maxDistance(int[][] grid) {        
         Queue<Pair<Integer, Integer>> q = new LinkedList<Pair<Integer,Integer>>();
         
         

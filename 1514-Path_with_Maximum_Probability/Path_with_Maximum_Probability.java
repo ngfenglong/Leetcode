@@ -1,3 +1,5 @@
+import java.util.*;
+
 class Solution {
     public double maxProbability(int n, int[][] edges, double[] succProb, int start_node, int end_node) {
         Map<Integer, List<double[]>> graph = new HashMap<>();

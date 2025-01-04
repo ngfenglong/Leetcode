@@ -1,3 +1,5 @@
+import java.util.*;
+
 class Solution {
     public boolean canArrange(int[] arr, int k) {     
         HashMap<Integer, Integer> elements = new HashMap<>();

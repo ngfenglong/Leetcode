@@ -1,3 +1,5 @@
+import java.util.*;
+
 class Solution {
     public int[] getFinalState(int[] nums, int k, int multiplier) {
         PriorityQueue<int[]> pq = new PriorityQueue<int[]>((arr1, arr2) -> {

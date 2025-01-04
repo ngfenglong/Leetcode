@@ -1,4 +1,6 @@
+import java.util.*;
 class Solution {
+    
     public int maximumElementAfterDecrementingAndRearranging(int[] arr) {
         Arrays.sort(arr);
         int curr = 0;

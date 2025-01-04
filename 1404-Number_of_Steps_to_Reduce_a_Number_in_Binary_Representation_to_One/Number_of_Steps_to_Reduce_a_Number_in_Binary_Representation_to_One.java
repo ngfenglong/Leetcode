@@ -1,3 +1,5 @@
+import java.util.*;
+
 class Solution {
     public int numSteps(String s) {
         int carry = 0;

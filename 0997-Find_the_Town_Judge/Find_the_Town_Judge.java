@@ -1,3 +1,5 @@
+import java.util.*;
+
 class Solution {
     public int findJudge(int n, int[][] trust) {
         int[] numOfTrust = new int[n + 1];

@@ -1,3 +1,5 @@
+import java.util.*;
+
 class Solution {
     public long distinctNames(String[] ideas) {
         HashMap<Integer, Set<String>> hm = new HashMap<>();

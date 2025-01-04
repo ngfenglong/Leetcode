@@ -1,3 +1,4 @@
+import java.util.*;
 class Solution {
     public int maxDistance(List<List<Integer>> arrays) {
         int[] min = new int[]{Integer.MAX_VALUE, -1};

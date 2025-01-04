@@ -1,3 +1,5 @@
+import java.util.*;
+
 class Solution {
     public int findMinDifference(List<String> timePoints) {
         List<int[]> times = new ArrayList<int[]>();
