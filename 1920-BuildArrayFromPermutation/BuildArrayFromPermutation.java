@@ -9,11 +9,5 @@ public class BuildArrayFromPermutation {
 
             return ans;
         }
-
-        private int recursive(int[] nums, int i){
-            if(nums[i] == nums[nums[i]]) return nums[i];
-    
-            return 
-        }
     }
 }
